@@ -8,7 +8,8 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 import {HttpClientModule} from '@angular/common/http';
 import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
 import { SideBarComponent } from './shared/side-bar/side-bar.component';
-import { DetailComponent } from './detailequipe/detail/detail.component'
+import { DetailComponent } from './detailequipe/detail/detail.component';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 /*.In our AppModule, we then need to specify the component that will serve as the entry point component for our application.
 In our app.module.ts file where we import the entry component (conventionally AppComponent) and supply it as the only item
 in our bootstrap array inside the NgModule configuration object. eg. bootstrap[AppComponent]*/
@@ -18,6 +19,7 @@ in our bootstrap array inside the NgModule configuration object. eg. bootstrap[A
     NotFoundComponent,
     NavBarComponent,
     SideBarComponent,
+
    
   ],
   imports: [
@@ -25,7 +27,8 @@ in our bootstrap array inside the NgModule configuration object. eg. bootstrap[A
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
-    DetailequipeModule
+    DetailequipeModule,
+    Ng2SearchPipeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

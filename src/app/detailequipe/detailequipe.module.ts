@@ -10,12 +10,15 @@ import { DetailComponent } from './detail/detail.component';
 
 
 
+
 @NgModule({
   declarations: [
     FormdetailComponent,
     ListdetailComponent,
     DetailequipeComponent,
-    DetailComponent
+    DetailComponent,
+    
+    
   ],
   imports: [
     FormsModule,

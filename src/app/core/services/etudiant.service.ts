@@ -30,5 +30,6 @@ export class EtudiantService {
   assignEtudiantToDepartement(idE: number, idD: number){
     return this.http.get(this.url+'/assign-etudiant-departement/'+idE+'/'+idD);
   }
+ 
   
 }

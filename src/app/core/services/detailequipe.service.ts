@@ -26,4 +26,5 @@ export class DetailequipeService {
     return this.http.get<DetailEquipe>(this.url+'/display/detailequipe/'+idDetailEquipe);
   }
 
+
 }

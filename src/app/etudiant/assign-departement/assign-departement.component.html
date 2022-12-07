@@ -19,7 +19,8 @@
                     </thead>
                     <tbody>
                         <tr *ngFor="let d of list | filter: search">
-                            <td>{{ d.idDepartement }} <input disabled type="hidden" [(ngModel)]="d.idDepartement"
+                            <td>{{ d.idDepartement }} 
+                                <input disabled type="hidden" [(ngModel)]="d.idDepartement"
                                     name="departement-{{d.idDepartement}}" #i="ngModel"></td>
                             <td>{{ d.nomDepart }} <input disabled type="hidden" [(ngModel)]="d.nomDepart"
                                     name="departement-{{d.nomDepart}}" #n="ngModel"></td>

@@ -25,4 +25,5 @@ export class EquipeService {
   getEquipeByID(id:number){
     return this.http.get<Equipe>(this.url+"/display/equipe/"+id)
   }
+  
 }

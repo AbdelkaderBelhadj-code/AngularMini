@@ -10,6 +10,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular-ru/stream": "^15.304.0",
     "@angular/animations": "~13.3.0",
     "@angular/common": "~13.3.0",
     "@angular/compiler": "~13.3.0",
@@ -18,9 +19,12 @@
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
+    "@ng-bootstrap/ng-bootstrap": "^12.1.2",
+    "@popperjs/core": "^2.11.6",
     "angular-notification-service": "^0.1.0",
     "bootstrap": "^5.2.1",
     "ng2-search-filter": "^0.5.1",
+    "ngx-pagination": "^6.0.3",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

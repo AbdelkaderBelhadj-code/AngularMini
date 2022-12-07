@@ -48,5 +48,9 @@ export class FormdetailComponent implements OnInit {
     }
   }
 
+  Back() {
+    this.router.navigate(['/detailequipe'])
+  }
+
 }
 
